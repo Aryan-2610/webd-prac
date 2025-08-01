@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(236, 244, 244);
+            color: rgb(204, 99, 6);
+            text-align: center;
+        }
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+            color: blanchedalmond;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript DOM FUN EXAMPLE</h1>
+
+    <!-- Example 1: Accessing DOM Elements -->
+    <section id="example-1">
+        <h2>Accessing DOM Elements</h2>
+        <p id="myParagraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, rem.
+        </p>
+        <button id="changeTextButton">Change Text</button>
+    </section>
+
+    <!-- Example 2: Traversing the DOM -->
+    <section id="example-2">
+        <h2>Traversing the DOM</h2>
+        <p>Below is a list of cities:</p>
+        <ul id="citiesList">
+            <li>Delhi</li>
+            <li>Mumbai</li>
+            <li>Bangalore</li>
+            <li>Kolkata</li>
+            <li>Chennai</li>
+        </ul>
+        <button id="highlightFirstCity">Highlight</button>
+    </section>
+
+    <script src="./script-dom.js"></script>
+</body>
+</html>

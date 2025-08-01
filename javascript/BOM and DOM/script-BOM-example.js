@@ -1,0 +1,6 @@
+console.log("hello script")
+console.log(window)
+console.log(window.outerHeight)
+console.log(window.outerWidth)
+console.log(navigator.userAgent)
+console.log(location.hostname)
