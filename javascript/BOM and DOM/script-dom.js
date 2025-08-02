@@ -26,3 +26,26 @@ document.getElementById("highlightFirstCity").addEventListener("click", () => {
 
     });
 });
+
+
+//example 8 : form handling
+document.getElementById("feedbackForm").addEventListener(
+    'submit',function(event){
+        //FIRST STEP MAJORLY
+        event.preventDefault()
+        let feedback=document.getElementById("feedbackInput").value;
+        console.log(feedback)
+        }
+)
+
+//example 9 dom status
+document.addEventListener("DOMContentLoaded",function(){
+    document.getElementById('domStatus').textContent="DOM LOAD"
+    
+})
+//ex 10 css manipulate
+document.getElementById("toggleHighlight").addEventListener("click",function(){
+    let descriptionText=document.getElementById("descriptionText");
+    descriptionText.classList.toggle("highlight");
+
+})
